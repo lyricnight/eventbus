@@ -10,8 +10,6 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
-
 dependencies {
     // jdk.internal... is an internal api so i need to add it separately
     compileOnly 'org.ow2.asm:asm:5.2'
@@ -20,6 +18,8 @@ dependencies {
 java {
     withSourcesJar()
     withJavadocJar()
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 javadoc {
