@@ -10,7 +10,7 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = targetCompatibility = 1.8
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
     // jdk.internal... is an internal api so i need to add it separately
@@ -37,6 +37,6 @@ publishing {
 }
 
 wrapper {
-    gradleVersion = "7.3.3"
+    gradleVersion = "8.4"
     distributionType = Wrapper.DistributionType.ALL
 }

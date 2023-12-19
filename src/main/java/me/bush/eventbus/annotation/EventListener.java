@@ -28,7 +28,7 @@ public @interface EventListener {
     ListenerPriority priority() default ListenerPriority.NORMAL;
 
     /**
-     * Whether or not this listener will be invoked when an event was previously cancelled.
+     * Whether this listener will be invoked when an event was previously cancelled.
      */
     boolean recieveCancelled() default false;
 }
