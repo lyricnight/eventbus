@@ -1,4 +1,4 @@
-package me.bush.eventbus.annotation;
+package me.lyric.eventbus.annotation;
 
 /**
  * @author bush

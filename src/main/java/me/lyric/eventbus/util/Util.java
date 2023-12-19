@@ -1,4 +1,4 @@
-package me.bush.eventbus.util;
+package me.lyric.eventbus.util;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -34,7 +34,7 @@ public class Util {
                 break;
             case "NoSuchMethodException":
                 // No constructor found
-                logger.accept(name + " has an incorrect constructor. See me.bush.eventbus.handler.Handler");
+                logger.accept(name + " has an incorrect constructor. See handler.me.lyric.eventbus.Handler");
                 break;
         }
     }

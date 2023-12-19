@@ -1,7 +1,7 @@
-package me.bush.eventbus.event;
+package me.lyric.eventbus.event;
 
-import me.bush.eventbus.annotation.EventListener;
-import me.bush.eventbus.bus.EventBus;
+import me.lyric.eventbus.annotation.EventListener;
+import me.lyric.eventbus.bus.EventBus;
 
 /**
  * @author bush

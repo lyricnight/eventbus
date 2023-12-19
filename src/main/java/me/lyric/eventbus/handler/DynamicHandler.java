@@ -1,8 +1,8 @@
-package me.bush.eventbus.handler;
+package me.lyric.eventbus.handler;
 
-import me.bush.eventbus.event.Event;
-import me.bush.eventbus.handler.handlers.ASMHandler;
-import me.bush.eventbus.handler.handlers.LambdaHandler;
+import me.lyric.eventbus.event.Event;
+import me.lyric.eventbus.handler.handlers.ASMHandler;
+import me.lyric.eventbus.handler.handlers.LambdaHandler;
 
 /**
  * @author bush

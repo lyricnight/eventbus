@@ -1,12 +1,12 @@
-package me.bush.eventbus.handler;
+package me.lyric.eventbus.handler;
 
-import me.bush.eventbus.annotation.EventListener;
-import me.bush.eventbus.annotation.ListenerPriority;
-import me.bush.eventbus.bus.EventBus;
-import me.bush.eventbus.event.Event;
-import me.bush.eventbus.handler.handlers.ASMHandler;
-import me.bush.eventbus.handler.handlers.LambdaHandler;
-import me.bush.eventbus.handler.handlers.ReflectHandler;
+import me.lyric.eventbus.annotation.EventListener;
+import me.lyric.eventbus.annotation.ListenerPriority;
+import me.lyric.eventbus.bus.EventBus;
+import me.lyric.eventbus.event.Event;
+import me.lyric.eventbus.handler.handlers.ASMHandler;
+import me.lyric.eventbus.handler.handlers.LambdaHandler;
+import me.lyric.eventbus.handler.handlers.ReflectHandler;
 
 import java.lang.reflect.Method;
 import java.util.function.Consumer;

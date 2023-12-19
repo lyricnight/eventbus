@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.github.therealbush'
-version '1.0.2'
+group 'com.github.lyricnight'
+version '1.0.3'
 
 repositories {
     mavenCentral()

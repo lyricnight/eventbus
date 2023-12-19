@@ -44,7 +44,7 @@ Extend `Event`, and implement the method `isCancellable()`.
 
 Example:
 ```java
-import me.bush.eventbus.event.Event;
+import event.me.lyric.eventbus.Event;
 
 public class MyEvent extends Event {
 

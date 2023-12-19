@@ -1,5 +1,5 @@
-import me.bush.eventbus.annotation.EventListener;
-import me.bush.eventbus.annotation.ListenerPriority;
+import me.lyric.eventbus.annotation.EventListener;
+import me.lyric.eventbus.annotation.ListenerPriority;
 
 /**
  * Started: 12/2/2021

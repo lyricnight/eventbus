@@ -1,9 +1,9 @@
-package me.bush.eventbus.handler.handlers;
+package me.lyric.eventbus.handler.handlers;
 
-import me.bush.eventbus.annotation.EventListener;
-import me.bush.eventbus.event.Event;
-import me.bush.eventbus.handler.DynamicHandler;
-import me.bush.eventbus.handler.Handler;
+import me.lyric.eventbus.annotation.EventListener;
+import me.lyric.eventbus.event.Event;
+import me.lyric.eventbus.handler.DynamicHandler;
+import me.lyric.eventbus.handler.Handler;
 
 import java.lang.invoke.*;
 import java.lang.reflect.Method;

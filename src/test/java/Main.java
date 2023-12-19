@@ -1,5 +1,5 @@
-import me.bush.eventbus.bus.EventBus;
-import me.bush.eventbus.handler.handlers.ReflectHandler;
+import me.lyric.eventbus.bus.EventBus;
+import me.lyric.eventbus.handler.handlers.ReflectHandler;
 
 /**
  * Started: 12/2/2021

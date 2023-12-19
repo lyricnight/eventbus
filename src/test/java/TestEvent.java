@@ -1,4 +1,4 @@
-import me.bush.eventbus.event.Event;
+import me.lyric.eventbus.event.Event;
 
 /**
  * Started: 12/2/2021

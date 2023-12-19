@@ -1,6 +1,6 @@
-package me.bush.eventbus.annotation;
+package me.lyric.eventbus.annotation;
 
-import me.bush.eventbus.bus.EventBus;
+import me.lyric.eventbus.bus.EventBus;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

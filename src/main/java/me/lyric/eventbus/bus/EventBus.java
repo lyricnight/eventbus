@@ -1,11 +1,11 @@
-package me.bush.eventbus.bus;
+package me.lyric.eventbus.bus;
 
-import me.bush.eventbus.annotation.EventListener;
-import me.bush.eventbus.event.Event;
-import me.bush.eventbus.handler.Handler;
-import me.bush.eventbus.handler.handlers.LambdaHandler;
-import me.bush.eventbus.handler.handlers.ReflectHandler;
-import me.bush.eventbus.util.Util;
+import me.lyric.eventbus.annotation.EventListener;
+import me.lyric.eventbus.event.Event;
+import me.lyric.eventbus.handler.Handler;
+import me.lyric.eventbus.handler.handlers.LambdaHandler;
+import me.lyric.eventbus.handler.handlers.ReflectHandler;
+import me.lyric.eventbus.util.Util;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
